@@ -1,0 +1,193 @@
+[
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "lightDrone",
+      "name": "Light Drone",
+      "mesh": "assets/model/drone.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.1, 0.1, 0.1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 40.0,
+      "battery_cap": 2000,
+      "weight_cap": 10,
+      "radius": 1.0,
+      "start": 2.0,
+      "duration": 2.0,
+      "offset": [0, 0.6, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "mediumDrone",
+      "name": "Medium Drone",
+      "mesh": "assets/model/drone.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.1, 0.1, 0.1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 30.0,
+      "battery_cap": 3000,
+      "weight_cap": 20,
+      "radius": 1.0,
+      "start": 2.0,
+      "duration": 2.0,
+      "offset": [0, 0.6, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "heavyDrone",
+      "name": "Heavy Drone",
+      "mesh": "assets/model/drone.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.1, 0.1, 0.1],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 20.0,
+      "battery_cap": 10000,
+      "weight_cap": 100,
+      "radius": 1.0,
+      "start": 2.0,
+      "duration": 2.0,
+      "offset": [0, 0.6, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "human",
+      "name": "Human-OG",
+      "mesh": "assets/model/human.glb",
+      "position": [498.292, 270, -228.623],
+      "scale": [0.005, 0.005, 0.005],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 10.0,
+      "radius": 1.0,
+      "start": 2.0,
+      "duration": 2.0,
+      "offset": [0, -0.5, 0]
+  }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "helicopter",
+      "name": "Helicopter",
+      "mesh": "assets/model/helicopter.glb",
+      "position": [498.292, 550, -228.623],
+      "scale": [0.025, 0.025, 0.025],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "speed": 50.0,
+      "offset": [0, 1.5, 0]
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "chargingStation",
+      "name": "Charging Station 1",
+      "mesh": "assets/model/chargingStation.glb",
+      "position": [-150, 224.9, -35],
+      "scale": [0.01, 0.01, 0.01],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "charge_speed": 200.0,
+      "slots": 3,
+      "offset": [0, 2.5, 0],
+      "speed": 0.0
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "chargingStation",
+      "name": "Charging Station 2",
+      "mesh": "assets/model/chargingStation.glb",
+      "position": [990, 239.9, 487],
+      "scale": [0.01, 0.01, 0.01],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "charge_speed": 200.0,
+      "slots": 3,
+      "offset": [0, 1.5, 0],
+      "speed": 0.0
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "chargingStation",
+      "name": "Charging Station 3",
+      "mesh": "assets/model/chargingStation.glb",
+      "position": [916, 246, -387],
+      "scale": [0.01, 0.01, 0.01],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "charge_speed": 200.0,
+      "slots": 3,
+      "offset": [0, 1.5, 0],
+      "speed": 0.0
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "chargingStation",
+      "name": "Charging Station 4",
+      "mesh": "assets/model/chargingStation.glb",
+      "position": [-917, 243.6, 401.5],
+      "scale": [0.01, 0.01, 0.01],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "charge_speed": 200.0,
+      "slots": 3,
+      "offset": [0, 1.5, 0],
+      "speed": 0.0
+    }
+  },
+  {
+    "command": "CreateEntity",
+    "params": {
+      "type": "chargingStation",
+      "name": "Charging Station 5",
+      "mesh": "assets/model/chargingStation.glb",
+      "position": [-806, 235.7, -348],
+      "scale": [0.01, 0.01, 0.01],
+      "rotation": [0, 0, 0, 0],
+      "direction": [1,0,0],
+      "charge_speed": 200.0,
+      "slots": 3,
+      "offset": [0, 1.5, 0],
+      "speed": 0.0
+    }
+  },
+  {
+    "command": "SetScene",
+    "params": {
+      "type": "scene",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "mesh": "assets/model/umn.obj",
+      "texture": "assets/texture/umn.png",
+      "position": [-1.5,-13,-1.5],
+      "scale": [0.05,0.05,0.05]
+    }
+  },
+  {
+    "command": "AddMesh",
+    "params": {
+      "type": "route",
+      "mesh": "assets/model/routes.obj",
+      "position": [-0.0,-12.5,-0.0],
+      "scale": [0.0705,0.05,0.0705],
+      "color": "0xff00e1"
+    }
+  }
+]
